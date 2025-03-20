@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trae的个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="logo">Trae</div>
+            <div class="nav-links">
+                <a href="#" class="active">首页</a>
+                <a href="#">博客</a>
+                <a href="#">作品集</a>
+                <a href="#">关于我</a>
+                <a href="#">联系方式</a>
+            </div>
+            <div class="theme-toggle">
+                <i data-feather="moon"></i>
+            </div>
+        </nav>
+
+        <!-- 英雄区域 -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>探索、创造、分享</h1>
+                <p>欢迎来到我的个人空间，这里记录着我的思考与创作</p>
+                <button class="primary-btn">了解更多</button>
+            </div>
+            <div class="hero-image">
+                <div class="blob"></div>
+            </div>
+        </section>
+
+        <!-- 最新文章 -->
+        <section class="latest-posts">
+            <h2>最新文章</h2>
+            <div class="posts-grid">
+                <div class="post-card">
+                    <div class="post-image"></div>
+                    <div class="post-content">
+                        <span class="post-category">设计</span>
+                        <h3>现代UI设计的趋势与实践</h3>
+                        <p>探索2023年UI设计的最新趋势，以及如何将这些趋势应用到实际项目中...</p>
+                        <div class="post-meta">
+                            <span><i data-feather="calendar"></i> 2023-10-15</span>
+                            <span><i data-feather="message-circle"></i> 24条评论</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-image"></div>
+                    <div class="post-content">
+                        <span class="post-category">开发</span>
+                        <h3>React 18新特性详解</h3>
+                        <p>深入了解React 18带来的新特性，以及如何利用这些特性提升应用性能...</p>
+                        <div class="post-meta">
+                            <span><i data-feather="calendar"></i> 2023-10-08</span>
+                            <span><i data-feather="message-circle"></i> 18条评论</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-card">
+                    <div class="post-image"></div>
+                    <div class="post-content">
+                        <span class="post-category">思考</span>
+                        <h3>数字极简主义：如何在信息爆炸时代保持专注</h3>
+                        <p>在这个信息过载的时代，如何通过数字极简主义理念保持专注和提高生产力...</p>
+                        <div class="post-meta">
+                            <span><i data-feather="calendar"></i> 2023-09-30</span>
+                            <span><i data-feather="message-circle"></i> 32条评论</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#">查看更多文章 <i data-feather="arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- 精选作品 -->
+        <section class="featured-works">
+            <h2>精选作品</h2>
+            <div class="works-carousel">
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <div class="work-overlay">
+                        <h3>智能家居控制面板</h3>
+                        <p>UI/UX设计 · 2023</p>
+                        <a href="#" class="work-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <div class="work-overlay">
+                        <h3>电子商务移动应用</h3>
+                        <p>前端开发 · 2023</p>
+                        <a href="#" class="work-link">查看详情</a>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="work-image"></div>
+                    <div class="work-overlay">
+                        <h3>个人财务管理工具</h3>
+                        <p>全栈开发 · 2022</p>
+                        <a href="#" class="work-link">查看详情</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-prev"><i data-feather="chevron-left"></i></button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="carousel-next"><i data-feather="chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- 订阅区域 -->
+        <section class="subscribe">
+            <div class="subscribe-content">
+                <h2>订阅我的博客</h2>
+                <p>获取最新文章和作品更新通知</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="输入您的邮箱地址">
+                    <button type="submit" class="primary-btn">订阅</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">Trae</div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>导航</h4>
+                        <a href="#">首页</a>
+                        <a href="#">博客</a>
+                        <a href="#">作品集</a>
+                        <a href="#">关于我</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>联系我</h4>
+                        <a href="mailto:contact@example.com">Email</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>资源</h4>
+                        <a href="#">设计资源</a>
+                        <a href="#">开发工具</a>
+                        <a href="#">推荐阅读</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Trae的个人博客. 保留所有权利.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
